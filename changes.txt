@@ -1,0 +1,44 @@
+jrdesktop changes
+=================
+
+Version 0.2.0030 23-06-08 
+=========================
+Fixed: Some clients remain running after disconnecting all clients at ones.
+Fixed: Send clipboard content continually even if it's empty.
+Fixed: Display best compression level instead of the used one (default level).
+Improved: Use JPEG image format instead of PNG (less quality, best performance).
+Improved: Send images without compression (JPEG images were naturally compressed).
+Improved: Disable JPEG image quality (as default choice).
+Improved: Organize source packages.
+Improved: File transfer GUI.
+
+Version 0.2.0020 23-05-08 
+=========================
+Fixed: calling tray icon on non supported platforms.
+Fixed: application remained running on platforms that doesn't support system tray.
+Improved: simplified jrdesktop's command line.
+Improved: newer jrdesktop GUI.
+Improved: updated viewer's GUI.
+Improved: scrollable view of server's screen.
+
+Version 0.2.0012 11-05-08 
+=========================
+Fixed: manage viewers using ArrayList instead of HashTable.
+Improved: update displayed icons to indicate current state.
+Improved: allow many viewers from same machine.
+
+Version 0.2.0011 07-05-08 
+=========================
+Improved: Auto generation of version & built date infos
+Fixed: Connection to localhost case of invalid server address
+
+Version 0.2.0007 02-05-08
+=========================
+Improved: Supporting IP4 only (error when system doesn't support iIP6)
+Improved: Simplified getting local IP addresses function
+
+Version 0.2.0004 01-05-08
+=========================
+Fixed: Connection to multihomed server using viewer's IP addresses instead of server's IPs
+Improved: Simplified Server configuration GUI
+Improved: Communication with viewers using int variables instead of inetadress objects
